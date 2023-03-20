@@ -1,12 +1,10 @@
-import { Button, Form, Row, Col, Container } from 'react-bootstrap';
+import { Form, Row, Col, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { SetStateAction, useEffect , useState} from 'react';
-import Card from './component/Card';
+import {useState} from 'react';
 import Auth from './component/auth';
 import SearchResults from './component/Item_list_artist'
 
-const CLIENT_ID = 'c9229c368b5f4a95bab7b83236096d97';
-const SECRET_ID = '53cd4795d5ee468a970982ffe1c371d7';
+
 
 
 
